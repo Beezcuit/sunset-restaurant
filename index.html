@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sunset Restaurant - Rezervasyon</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>SUNSET RESTAURANT</h1>
+        <a href="admin.html" class="admin-link">Rezervasyon Ekranı</a>
+        <div class="menu">
+            <h3>Hoş Geldiniz</h3>
+            <div id="basarili"></div>
+            <div class="info">
+                <form id="form">
+                    <div id="tarihKisi">
+                        <input type="date" id="tarih" min="2025-04-03" max="2025-12-31">
+                        <input type="time" id="saat" min="09:00" max="23:00">
+                        <select id="kisi">
+                            <option value="">Kişi Sayısı</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div id="kisiBilgileri" style="display: none;">
+                        <input type="text" id="ad" placeholder="Adınız">
+                        <input type="text" id="soyad" placeholder="Soyadınız">
+                        <input type="tel" id="tel" placeholder="Telefon Numaranız">
+                        <div class="rez">
+                            <button type="button" id="olustur">Rezervasyon Oluştur</button>
+                        </div>
+                    </div>
+                    <button type="button" id="ileri">İleri</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./rez-sistemi/main.js"></script>
+</body>
+
+</html>

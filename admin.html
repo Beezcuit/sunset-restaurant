@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/admin.css">
+    <title>Sunset Restaurant - Yönetici Paneli</title>
+</head>
+<body>
+    <div class="admin-container">
+        <h1>SUNSET RESTAURANT</h1>
+        <h2>Yönetici Paneli</h2>
+        <div id="loginForm" class="login-form">
+            <input type="text" id="username" placeholder="Kullanıcı Adı">
+            <input type="password" id="password" placeholder="Şifre">
+            <button id="loginBtn">Giriş Yap</button>
+        </div>
+        <div id="dashboard" style="display: none;">
+            <div class="filters">
+                <input type="date" id="filterDate">
+                <button id="filterBtn">Filtrele</button>
+            </div>
+            <div id="reservationList"></div>
+        </div>
+    </div>
+<script src="./rez-sistemi/admin.js"></script>
+</body>
+</html>
