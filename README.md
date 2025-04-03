@@ -9,7 +9,7 @@
 - Telefon numarası
 - 
 ** REZERVASYON ADIMLARI
-- - Tarih, saat ve kişi sayısı seçin
+- Tarih, saat ve kişi sayısı seçin
 - "İleri" butonuna tıklayın
 - Kişisel bilgileri doldurun
 - "Rezervasyon Oluştur" butonuna tıklayın
@@ -23,13 +23,13 @@
 - ** YÖNETİCİ PANELİ ÖZELLİKLERİ
 - Tüm rezervasyonları görüntüleme
 - Her rezervasyon için:
--  Tarih
+- Tarih
 - Saat
 - Kişi sayısı
 - Müşteri bilgileri
 - Rezervasyon durumu
 
-**  REZERVASYON YÖNETİMİ
+** REZERVASYON YÖNETİMİ
 - Rezervasyonları onaylama
 - Rezervasyonları reddetme
 - Tarih bazlı filtreleme yapabilme
@@ -41,20 +41,16 @@
 - Sayfa yenilendiğinde veriler kaybolmaz
 
 ** DURUM TAKİBİ
-Rezervasyonlar üç durumda olabilir:
+Rezervasyonların durumu:
 
 - Beklemede
 - Onaylandı
 - Reddedildi
 
 ** GÜVENLİK
-- Yönetici paneline erişim şifre korumalıdır
-- Form validasyonları mevcuttur
+- Yönetici paneline erişim şifresi
+- Form validasyonları
 
-** TEKNİK GEREKSİNİMLER
-- Modern bir web tarayıcısı (Chrome, Firefox, Safari, Edge)
-- JavaScript'in aktif olması
-- İnternet bağlantısı (font yüklemeleri için)
 
 ** SINIRLAMALAR
 
@@ -62,9 +58,3 @@ Rezervasyonlar üç durumda olabilir:
 - Minimum kişi sayısı: 1
 - Rezervasyon tarihi: 2025-04-03 ile 2025-12-31 arası
 - Rezervasyon saati: 09:00 - 23:00 arası
-
-  
-
-
-
-
