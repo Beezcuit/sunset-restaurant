@@ -41,8 +41,8 @@
 - Sayfa yenilendiğinde veriler kaybolmaz
 
 ** DURUM TAKİBİ
-Rezervasyonların durumu:
 
+Rezervasyonların durumu:
 - Beklemede
 - Onaylandı
 - Reddedildi
