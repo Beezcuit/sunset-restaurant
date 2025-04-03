@@ -1,4 +1,4 @@
-Ana sayfada ( index.html ) rezervasyon formu bulunur.
+
 ** REZERVASYON İÇİN GEREKLİ ALANLAR:
 - Tarih seçimi (2025-04-03 ile 2025-12-31 arası)
 - Saat seçimi (09:00 - 23:00 arası)
